@@ -3,14 +3,14 @@ package edu.estatuas.item;
 public class Ask implements Offer{
     
     String size;
-    Interger ask;
+    Integer ask;
 
-    public Ask(String size, Interger ask) {
+    public Ask(String size, Integer ask) {
         this.size = size;
         this.ask = ask;
     }
 
-    public Interger getAsk() {
+    public Integer getAsk() {
         return this.ask;
     }
 

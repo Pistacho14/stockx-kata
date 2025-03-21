@@ -6,7 +6,11 @@
 
     <groupId>edu.estatuas</groupId>
     <artifactId>stockx</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version> 
+    <packaging>jar</packaging>
+
+    <name>stockx-kata</name>
+    <url>https://github.com/Pistacho14/stockx-kata</url>
 
     <properties>
         <maven.compiler.source>21.0.6</maven.compiler.source>
@@ -57,7 +61,7 @@
                     <configuration>
                         <archive>
                             <manifest>
-                                <mainClass>edu.estatuas.Brunosbox</mainClass>
+                                <mainClass>edu.estatuas.Stockx</mainClass>
                             </manifest>
                         </archive>
                     </configuration>

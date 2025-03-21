@@ -17,8 +17,7 @@ public class Stockx {
 
         Item sneaker = new Sneaker("555088-105", "Jordan 1 Retro High Dark Mocha");
         System.out.println(Stockx.draw(sneaker));
-    }
-        /**
+        /*
          * Crear bids
          * y añadirlas a la zapatilla
          * en sus offers.
@@ -44,6 +43,9 @@ public class Stockx {
         sneaker.add(new Ask("9.5", 340));
         sneaker.add(new Ask("13", 330));
         
+
+    }
+    
     public static String draw(Item sneaker) {
         return
         "\n\n\t\t" + sneaker.getAsk() + " Buy\t" 
